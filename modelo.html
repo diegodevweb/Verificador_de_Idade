@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento: 
+               <input type="number" name="anoNasc" id="anoNasc" min="1930" max="2022"></p>
+
+               <p>Sexo:
+                   <input type="radio" name="radsex" id="radsex" checked>
+                   <label for="radsex">Feminino</label>
+                   <input type="radio" name="radsex" id="radsex" >
+                   <label for="radsex">Masculino</label>
+               </p>
+               <p><input type="button" value="Verificar" onclick="verificar()"></p>
+               <h3 id="resultado">Preencha os dados para ver o resultado.</h3>
+        </div>
+        <div>
+            <img id="img" src="midia/bebe_menina.png" alt="">
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy; Diego Rodrigues</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

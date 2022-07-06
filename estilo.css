@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(156, 182, 182);
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    color:rgb(156, 182, 182);
+}
+div{
+    text-align: center;
+}
+#img{
+    width: 300px;
+    height: 300px;
+}
